@@ -9,3 +9,12 @@ module.exports.addUser = function(req, res){
             res.send(user);
         })
 };
+
+//Requesting all users
+module.exports.getUsers = function(req, res){
+    console.log('GET request');
+    userModel.find()
+        .then(function(users){
+            res.send(users)
+    })
+}
