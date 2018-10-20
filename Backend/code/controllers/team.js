@@ -1,13 +1,18 @@
 const mongoose = require('mongoose');
 const teamModel = require('./../schemas/team');
+const generateId = require('../scripts/id-generation');
 
 //Creating a new model
 module.exports.addTeam = function(req, res){
     console.log('POST team request');
-    teamModel.create(req.body)
-    .then(function(team){
-        res.send(team);
-    })
+    teamModel.findOne({}, {}, { sort: { '_id' : -1 } }, function(err, post) {
+        if (err) {res.status(404)};
+        let newTeam = generateId.newId(req.body, post);
+        teamModel.create(newTeam)
+        .then(function(team){
+            res.send(team);
+        })
+    });
 };
 
 //Requesting all teams

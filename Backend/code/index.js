@@ -37,5 +37,7 @@ app.get('/positions', PositionController.getPositions);
 app.get('/positions/:id', PositionController.getPositionById);
 app.post('/kudos', KudoController.addKudo);
 app.get('/kudos', KudoController.getKudos);
-app.get('/kudos/:id', KudoController.getKudoById);
-
+app.get('/kudos/:id', /*function (req, res) {
+    let obj = */KudoController.getKudoById
+    /*res.render('Frontend/code/views/component', {  })
+}*/);

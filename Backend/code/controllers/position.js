@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 const positionModel = require('./../schemas/position');
+const generateId = require('../scripts/id-generation');
 
 //Creating a new model
 module.exports.addPosition = function(req, res){
     console.log('POST position request');
     positionModel.findOne({}, {}, { sort: { '_id' : -1 } }, function(err, post) {
-        let newPosition = req.body;
-        newPosition.id = post.id;
-        newPosition.id++;
+        if (err) {res.status(404)};
+        let newPosition = generateId.newId(req.body, post);
         positionModel.create(newPosition)
         .then(function(position){
             res.send(position);

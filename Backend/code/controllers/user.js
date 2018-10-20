@@ -1,12 +1,17 @@
 const mongoose = require('mongoose');
 const userModel = require('./../schemas/user');
+const generateId = require('../scripts/id-generation');
 
 //Creating a new model
 module.exports.addUser = function(req, res){
     console.log('POST user request');
-    userModel.create(req.body)
-    .then(function(user){
-        res.send(user);
+    userModel.findOne({}, {}, { sort: { '_id' : -1 } }, function(err, post) {
+        if (err) {res.status(404)};
+        let newUser = generateId.newId(req.body, post);
+        userModel.create(newUser)
+        .then(function(user){
+            res.send(user);
+        })
     })
 };
 

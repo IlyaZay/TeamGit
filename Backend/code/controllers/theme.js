@@ -1,13 +1,18 @@
 const mongoose = require('mongoose');
 const themeModel = require('./../schemas/theme');
+const generateId = require('../scripts/id-generation');
 
 //Creating a new model
 module.exports.addTheme = function(req, res){
     console.log('POST theme request');
-    themeModel.create(req.body)
-    .then(function(theme){
-        res.send(theme);
-    })
+    themeModel.findOne({}, {}, { sort: { '_id' : -1 } }, function(err, post) {
+        if (err) {res.status(404)};
+        let newTheme = generateId.newId(req.body, post);
+        themeModel.create(newTheme)
+        .then(function(theme){
+            res.send(theme);
+        })
+    });
 };
 
 //Requesting all themes
