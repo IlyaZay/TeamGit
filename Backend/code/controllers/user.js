@@ -21,6 +21,7 @@ module.exports.getUsers = function(req, res){
     })
 }
 
+//Requesting a user by id
 module.exports.getUserById = function(req, res){
     console.log('GETONE request');
     userModel.findById(req.params.id)
