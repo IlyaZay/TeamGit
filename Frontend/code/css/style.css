@@ -1,0 +1,178 @@
+* {}
+
+body {
+  background-color: #edeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  background-color: #FE117A;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-left: -20px;
+  margin-top: -20px;
+  width: 100%;
+}
+
+nav .kudoStatsGeneral {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+nav .kudoStats {
+  padding: 50px;
+  flex-grow: 1;
+  display: flex;
+}
+
+nav .userRank {
+  flex-grow: 1;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+
+nav .userRank .element {
+  margin: 20px;
+  margin-left: 90px;
+  align-self: flex-end;
+}
+
+nav .image {
+  flex-grow: 2;
+}
+
+nav .imageProfile {
+  border-radius: 200px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+nav .kRec {
+  flex-grow: 1;
+}
+
+nav .kSent {
+  flex-grow: 1;
+}
+
+nav .kudoStatsGeneral .kudoStats input[type="submit"] {
+  width: 200px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+nav .kudoStatsGeneral .userRank input[type="submit"] {
+  width: 100px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.main {
+  display: flex;
+  margin: 50px;
+}
+
+.left {
+  display: flex;
+  flex-grow: 15;
+  justify-content: space-between;
+}
+
+.left .statGraph {
+  text-align: center;
+  border-radius: 20px;
+  flex-grow: 10;
+  margin-right: 30px;
+  align-items: center;
+  background-color: #d2d2d2;
+}
+
+.left .randomQuote {
+  flex-grow: 1;
+  margin-left: 100px;
+  align-self: baseline;
+}
+
+.left .randomQuote input[type="submit"] {
+  padding: 50px;
+  padding-bottom: 100px;
+  border-radius: 20px;
+}
+
+.container {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #d2d2d2;
+  border-radius: 40px;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container div {
+  margin: 25px;
+  margin-top: 80px;
+}
+
+.container p {
+  display: inline;
+}
+
+.right {
+  flex-grow: 1;
+}
+
+.right .notes {
+  background-color: #d2d2d2;
+  border-radius: 20px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.right .notes textarea {
+  background-color: #FFFF88;
+  resize: none;
+  text-align: center;
+}
+
+.sendKUDO {
+  background-color: #d2d2d2;
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  margin: 50px;
+}
+
+
+.sendKUDO  textarea{
+  border-radius: 20px;
+  resize: none;
+  text-align: center;
+  margin-top: 30px;
+
+
+}
+.sendKUDO .textarea{
+
+  border-radius: 20px;
+
+}
+.sendKUDO label{
+  font-size: 30px;
+
+}
+#dropdown{
+  display: inline;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #d2d2d2;
+  border-radius: 50px;
+}
