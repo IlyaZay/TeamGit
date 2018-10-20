@@ -3,7 +3,7 @@ const userModel = require('./../schemas/user');
 
 //Creating a new model
 module.exports.addUser = function(req, res){
-    console.log('POST request');
+    console.log('POST user request');
     userModel.create(req.body)
     .then(function(user){
         res.send(user);
@@ -12,7 +12,7 @@ module.exports.addUser = function(req, res){
 
 //Requesting all users
 module.exports.getUsers = function(req, res){
-    console.log('GET request');
+    console.log('GET user request');
     userModel.find(req.params)
     .lean()
     .then(function(users){
@@ -23,7 +23,7 @@ module.exports.getUsers = function(req, res){
 
 //Requesting a user by id
 module.exports.getUserById = function(req, res){
-    console.log('GETONE request');
+    console.log('GETONE user request');
     userModel.findById(req.params.id)
     .lean()
     .then(function(user){
