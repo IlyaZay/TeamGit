@@ -3,27 +3,29 @@ const Schema = mongoose.Schema;
 
 
 const UserSchema = new Schema({
+    id: Number,
     name: {
         type: String,
-        required: true
+        required: true,
     },
-    email: String,
-    department: String,
-    teamRole: {
+    email: {
         type: String,
-        enum: [
-            'team_leader', 
-            'junior_developer', 
-            'senior_developer', 
-            "middle_developer",
-            'architect',
-            'senior_architect',
-            'analysist',
-        ],
+        required: true,
     },
-    kudosSent: Number,
-    kudosReceived: Number,
-    rating: Number,
+    team_name: String,
+    team_id: Number,
+    position_name: String,
+    position_id: String,
+    sex: {
+        type: String,
+        required: true,
+    },
+    age_years: Number,
+    date_of_birth: Date,
+    personal_score: Number,
+    kudos_sent: Number,
+    kudos_received: Number,
+    user_picture: String,
 });
 
 module.exports = mongoose.model('User', UserSchema);
