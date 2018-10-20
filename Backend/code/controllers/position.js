@@ -4,10 +4,15 @@ const positionModel = require('./../schemas/position');
 //Creating a new model
 module.exports.addPosition = function(req, res){
     console.log('POST position request');
-    positionModel.create(req.body)
-    .then(function(position){
-        res.send(position);
-    })
+    positionModel.findOne({}, {}, { sort: { '_id' : -1 } }, function(err, post) {
+        let newPosition = req.body;
+        newPosition.id = post.id;
+        newPosition.id++;
+        positionModel.create(newPosition)
+        .then(function(position){
+            res.send(position);
+        })
+    });
 };
 
 //Requesting all positions

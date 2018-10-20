@@ -4,9 +4,9 @@ const app = express();
 const bodyParser = require('body-parser');
 const UserController = require('./controllers/user.js');
 const ThemeController = require('./controllers/theme.js');
-const UserController = require('./controllers/team.js');
-const UserController = require('./controllers/position.js');
-const UserController = require('./controllers/kudo.js');
+const TeamController = require('./controllers/team.js');
+const PositionController = require('./controllers/position.js');
+const KudoController = require('./controllers/kudo.js');
 
  /**
   * Connecting to MONGO
