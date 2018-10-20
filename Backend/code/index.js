@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost/CeltraHackathon')
     .catch(e => console.log(e))
 mongoose.Promise = global.Promise;
 app.listen(8080, function(){
-    console.log('Now listening for requests...')
+    console.log('Now listening for requests on port 8080')
 })
 
 app.use(bodyParser.json());
@@ -23,4 +23,4 @@ app.use(bodyParser.urlencoded());
  */
 app.post('/users', UserController.addUser);
 app.get('/users', UserController.getUsers);
-//app.get('/users/:id', UserController.getUserById);
+app.get('/users/:id', UserController.getUserById);
