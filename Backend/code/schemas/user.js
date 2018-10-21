@@ -4,7 +4,11 @@ const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
     id: Number,
-    name: {
+    first_name: {
+        type: String,
+        required: true,
+    },
+    last_name:{
         type: String,
         required: true,
     },
@@ -12,6 +16,7 @@ const UserSchema = new Schema({
         type: String,
         required: true,
     },
+    manager_id: String,
     team_name: String,
     team_id: Number,
     position_name: String,
@@ -20,11 +25,19 @@ const UserSchema = new Schema({
         type: String,
         required: true,
     },
-    age_years: Number,
-    date_of_birth: Date,
-    personal_score: Number,
-    kudos_sent: Number,
-    kudos_received: Number,
+    age: Number,
+    personal_score: {
+        default: 0,
+        type: Number
+    },
+    kudos_sent: {
+        default: 0,
+        type: Number
+    },
+    kudos_received: {
+        default: 0,
+        type: Number
+    },
     user_picture: String,
 });
 

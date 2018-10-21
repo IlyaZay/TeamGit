@@ -1,19 +1,43 @@
 const mongoose = require('mongoose');
 const kudoModel = require('./../schemas/kudo');
 const generateId = require('../scripts/id-generation');
+const moment = require('moment');
+const themeModel = require('../schemas/theme');
+const userModel = require('../schemas/user');
 
 //Creating a new model
 module.exports.addKudo = function(req, res){
     console.log('POST kudo request');
-    kudoModel.findOne({}, {}, { sort: { '_id' : -1 } }, function(err, post) {
-        if (err) {res.status(404)};
-        let newKudo = generateId.newId(req.body, post);
-        kudoModel.create(newKudo)
-        .then(function(kudo){
-            res.send(kudo);
-        })
-    });
-};
+    userModel.findOne({id: req.body.sender_id})
+    .then(((sender) => {
+        sender.kudos_sent++;
+        userModel.updateOne({id: sender.id}, {$set: {kudos_sent: sender.kudos_sent}}, {}, ((err) => {
+            if (err) {res.status(500)};
+            kudoModel.findOne({}, {}, { sort: { '_id' : -1 } }, ((err, post) => {
+                if (err) {res.status(404)};
+                let newKudo = generateId.newId(req.body, post);
+                themeModel.findOne({topic: newKudo.theme_name}, {}, {}, ((err, theme) => {
+                    if (err) {res.status(404)};
+                    if (!newKudo.theme_id){newKudo.theme_id = theme.id};
+                    if (!newKudo.complexity){newKudo.complexity = theme.value};
+                    if (!newKudo.date) {newKudo.date = moment().format('YYYY-MM-DD HH:MM:ss')};
+                    userModel.findOne({id: req.body.receiver_id})
+                    .then(((receiver) => {
+                        receiver.kudos_received++;
+                        receiver.personal_score += theme.value;
+                        userModel.updateOne({id: receiver.id}, {$set:{kudos_received: receiver.kudos_received, personal_score: receiver.personal_score}}, {}, ((err) => {
+                            if (err) {res.status(500)};
+                            kudoModel.create(newKudo)
+                            .then(function(kudo){
+                                res.send(kudo);
+                            });
+                        }))
+                    }))
+                }))
+            }))
+        }))
+    }))
+}
 
 //Requesting all kudos
 module.exports.getKudos = function(req, res){
@@ -35,4 +59,8 @@ module.exports.getKudoById = function(req, res){
         console.log(kudo)
         res.send(kudo);
     })
+}
+
+function addition(value) {
+    return value+1;
 }
