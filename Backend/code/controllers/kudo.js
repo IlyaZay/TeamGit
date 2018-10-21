@@ -8,6 +8,7 @@ const userModel = require('../schemas/user');
 //Creating a new model
 module.exports.addKudo = function(req, res){
     console.log('POST kudo request');
+    try{
     userModel.findOne({first_name: req.body.sender_first_name, last_name: req.body.sender_last_name})
     .then(((sender) => {
         if (sender) {console.log({sender});
@@ -42,7 +43,7 @@ module.exports.addKudo = function(req, res){
                 }))
             }))
         }))
-    } else {res.send("SENDER doesn't exist")}}))
+    } else {res.send("SENDER doesn't exist")}}))} catch(err) {res.status(500)};
 }
 
 //Requesting all kudos
