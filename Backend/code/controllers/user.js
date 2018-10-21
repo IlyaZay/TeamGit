@@ -9,14 +9,18 @@ const randomString = require('randomstring');
 module.exports.addUser = ((req, res) => {
     console.log('POST user request');
     userModel.findOne({}, {}, { sort: { '_id' : -1 } }, ((err, post) => {
+        console.log('POST: ' + post)
         if (err) {res.status(404)};
         if (!req.body.password) { req.body.password = randomString.generate({length: 8})};
         let newUser = generateId.newId(req.body, post);
-        if (!newUser.team) {newUser.team = "undefined"};
+        console.log({newUser})
+        if (!newUser.team_name) {newUser.team_name = "undefined"};
         teamModel.findOne({name: newUser.team_name}, {}, {}, ((err, team) => {
+            console.log('TEAM: ' + team)
             if (err) {res.status(404)};
             if (!newUser.team_id){newUser.team_id = team.id};
             positionModel.findOne({title: newUser.position_name}, {}, {}, ((err, position) => {
+                console.log('POSITION ')
                 console.log({position});
                 if (err) {res.status(404)};
                 if (!newUser.position_id){newUser.position_id = position.id};

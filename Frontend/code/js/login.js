@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 function loginButton(){
 
   alert("LOGIN CHECK")
@@ -14,10 +16,11 @@ function loginButton(){
 }
 function registerButton(){
 
-   alert("Registration CHECK")
+  alert("Registration CHECK")
+  window.open("../register.html","_self");
+  document.importNode("../register.html","_self");
+  
 
-    window.open("../register.html","_self");
-    document.importNode("../register.html","_self");
 
 
 
