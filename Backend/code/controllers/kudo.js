@@ -60,7 +60,3 @@ module.exports.getKudoById = function(req, res){
         res.send(kudo);
     })
 }
-
-function addition(value) {
-    return value+1;
-}

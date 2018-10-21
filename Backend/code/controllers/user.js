@@ -2,14 +2,17 @@ const mongoose = require('mongoose');
 const userModel = require('./../schemas/user');
 const teamModel = require('../schemas/team');
 const generateId = require('../scripts/id-generation');
-positionModel = require('../schemas/position');
+const positionModel = require('../schemas/position');
+const randomString = require('randomstring');
 
 //Creating a new model
 module.exports.addUser = ((req, res) => {
     console.log('POST user request');
     userModel.findOne({}, {}, { sort: { '_id' : -1 } }, ((err, post) => {
         if (err) {res.status(404)};
+        if (!req.body.password) { req.body.password = randomString.generate({length: 8})};
         let newUser = generateId.newId(req.body, post);
+        if (!newUser.team) {newUser.team = "undefined"};
         teamModel.findOne({name: newUser.team_name}, {}, {}, ((err, team) => {
             if (err) {res.status(404)};
             if (!newUser.team_id){newUser.team_id = team.id};
