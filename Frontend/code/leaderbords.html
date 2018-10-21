@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>User Page</title>
+  <link rel="stylesheet" href="/css/leaderbords.css">
+  <script type="text/javascript" src="/js/user.js">
+  </script>
+  <script type="text/javascript" src="index.js">
+
+  </script>
+  <script src="https://unpkg.com/vue"></script>
+
+</head>
+
+<body>
+  <nav>
+
+    <div class="image">
+      <div class="ins-image" onclick="goToProfile()">
+        <img id="userProfilePic" class="imageProfile" src="./images/defUser.png" alt="404">
+      </div>
+    </div>
+
+
+    <div class="kudoStatsGeneral">
+
+      <div class="userRank">
+
+        <div class="element">
+
+          <label> Score </label>
+          <button type="button" id="userScore" onclick="openLeaderbords()">60</button>
+        </div>
+        <div class="element">
+
+          <label> Rank </label>
+          <button type="button" id="userRankValue">404</button>
+        </div>
+        <div class="element">
+          <label> Team Rank </label>
+          <button type="button" id="teamRankValue">404</button>
+        </div>
+      </div>
+
+      <div class="kudoStats">
+
+        <div class="element">
+          <label style="margin-top: 25px; margin-right:20px;"> KUDO Recived </label>
+          <button type="button" id="kudosRecived">6</button>
+        </div>
+        <div class="element">
+          <label style="margin-top: 25px; margin-right:20px;"> KUDO Sent </label>
+          <button type="button" id="kudosSent">6</button>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+  </nav>
+
+  <div class="main">
+
+    <div class="left">
+
+
+      <div class="container">
+
+        <div>
+          <label>User: </label>
+          <p id="userName">Uros</p>
+        </div>
+        <div>
+          <label>E-mail: </label>
+          <p id="userEmail">urosurosic@hotmail.com</p>
+        </div>
+        <div>
+          <label>Position: </label>
+          <p id="userPosition">CEO</p>
+        </div>
+        <div>
+          <label>Age: </label>
+          <p id="userAge">10</p>
+        </div>
+        <div>
+          <label>Gender: </label>
+          <p id="userGender">F</p>
+        </div>
+        <div>
+          <label>Team: </label>
+          <p id="userTeam">none</p>
+        </div>
+        <button type="button" id="logOutButton" onclick="logOutButton()">Log Out</button>
+        <button type="button" id="settingsButton" onclick="settingsButton()">Settings</button>
+
+
+
+
+      </div>
+
+      <div class="yourScoreBox" >
+          <h3>Your score: </h3>
+        <p id="yourScore" > 100 </p>
+
+
+      </div>
+
+      <div id="dailyQuote">
+        <!-- Not For Use -->
+      </div>
+
+      <div class="leaderbords">
+
+        <div class="">
+            <h2>LEADERBORDS</h2>
+        </div>
+        <hr style="width: 80%">
+
+
+
+        <ul>
+
+          <li>
+            <button type="button" class="circleFirst"></button>
+            <label id="firstPlace">No one - </label>
+            <label id="firstPoints"> 0 </label>
+          </li>
+          <li>
+            <button type="button" class="circleSecound"></button>
+            <label id="secoundPlace">No one - </label>
+            <label id="secoundPoints"> 0 </label>
+          </li>
+          <li>
+            <button type="button" class="circleThird"></button>
+            <label id="firstPlace">No one - </label>
+            <label id="thirdPoints"> 0 </label>
+          </li>
+
+
+
+
+        </ul>
+
+        <hr style="width: 80%; border: 1px solid gray;">
+
+
+      </div>
+
+    </div>
+
+    <div class="right">
+
+
+
+      <div class="notes">
+
+        <h1>NOTES</h1>
+
+        <textarea name="name" rows="30" cols="30" placeholder="You have no NOTES"></textarea>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <hr style="width: 100%;">
+  <div style="margin-bottom: 500px;">
+  </div>
+
+  <footer>
+    <hr>
+    <h6 style=" text-align: center;">Copyright WRFL</h6>
+  </footer>
+
+</body>
+
+</html>

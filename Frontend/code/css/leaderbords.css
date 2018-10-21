@@ -1,0 +1,265 @@
+* {}
+
+body {
+  background-color: #d2d2d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  box-shadow: 5px 10px #5C5C5C;
+  background-color: #008ae6;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-left: -20px;
+  margin-top: -20px;
+  width: 100%;
+}
+
+nav .kudoStatsGeneral {
+
+  display: flex;
+  flex-grow: 10;
+  justify-content: center;
+}
+
+nav .kudoStats {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+nav .userRank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+nav .kudoStats label{
+  font-size: 30px;
+}
+nav .kudoStats button{
+  background-color: white;
+  transition-duration: 0.4s;
+  padding: 20px 80px ;
+
+}
+nav .kudoStats button:hover{
+  box-shadow: 3px 7px gray;
+
+
+}
+nav .kudoStats .element {
+  align-self: flex-end;
+  margin: 20px;
+}
+
+nav .userRank .element {
+  margin: 20px;
+}
+nav .userRank label{
+  font-size: 30px;
+}
+nav .userRank button{
+  transition-duration: 0.4s;
+  padding: 15px 25px ;
+}
+nav .userRank button:hover{
+
+  box-shadow: 3px 7px gray;
+
+
+}
+
+nav .image {
+  flex-grow: 1;
+}
+
+nav .imageProfile {
+  border-radius: 200px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+nav #userProfilePic{
+  max-width: 300px;
+
+}
+nav .ins-image{
+  display: inline;
+
+}
+nav  .ins-image:hover  #userProfilePic{
+  transition: .4s;
+  opacity: 0.6;
+}
+
+
+nav .kRec {
+  flex-grow: 1;
+}
+
+nav .kSent {
+  flex-grow: 1;
+}
+
+nav .kudoStatsGeneral .kudoStats button {
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  margin-right: 70px;
+}
+
+nav .kudoStatsGeneral .userRank button {
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+
+
+.main {
+  display: flex;
+  margin: 50px;
+}
+
+.left {
+  display: flex;
+  flex-grow: 15;
+  justify-content: space-between;
+}
+
+.left #dailyQuote{
+  display: none;
+}
+
+.left .leaderbords {
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+  box-shadow: 5px 10px #5C5C5C;
+  text-align: center;
+  border-radius: 20px;
+  flex-grow: 10;
+  margin-right: 40px;
+  background-color: #fff;
+  min-width: 400px;
+}
+
+
+.left .leaderbords h2{
+  padding: 20px;
+  background-color: #008ae6;
+  border-radius: 20px;
+
+
+}
+
+.left .yourScoreBox{
+  position: relative;
+  align-self: flex-start;
+  top: -40px;
+  max-width: 200px;
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 5px 10px #5C5C5C;
+  flex-grow: 1;
+  margin-top: 0px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li .circleFirst{
+  margin: 20px;
+  background-color: #87ceeb;
+  padding: 40px;
+  border-radius: 90px;
+  border: none;
+}
+ul li .circleSecound{
+  margin: 20px;
+  background-color: pink;
+  padding: 30px;
+  border-radius: 60px;
+  border: none;
+}
+ul li .circleThird{
+  margin: 20px;
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+
+.container {
+  box-shadow: 5px 10px #5C5C5C;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 40px;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container div {
+  margin: 25px;
+  margin-top: 50px;
+}
+
+.container p {
+  display: inline;
+}
+#logOutButton {
+  transition-duration: 0.4s;
+  background-color:#008ae6;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+#settingsButton {
+  transition-duration: 0.4s;
+  background-color:#008ae6;
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+#logOutButton:hover{
+  box-shadow: 3px 7px gray;
+
+}
+#settingsButton:hover{
+  box-shadow: 3px 7px gray;
+
+}
+
+
+.right {
+  flex-grow: 1;
+}
+
+.right .notes {
+  box-shadow: 5px 10px #5C5C5C;
+  background-color: #fff;
+  border-radius: 20px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.right .notes textarea {
+  border-radius: 20px;
+  background-color: #FFFF88;
+  resize: none;
+  text-align: center;
+}
