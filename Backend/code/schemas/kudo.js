@@ -10,7 +10,10 @@ const KudoSchema = new Schema({
     receiver_id: Number,
     theme_id: Number,
     theme_name: String,
-    answered: Boolean,
+    answered: {
+        type: Boolean,
+        default: false
+    },
     complexity: Number,
 });
 

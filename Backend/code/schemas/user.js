@@ -4,28 +4,49 @@ const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
     id: Number,
-    name: {
+    first_name: {
         type: String,
         required: true,
     },
+    //sent
+    last_name:{
+        type: String,
+        required: true,
+    },
+    //sent
     email: {
         type: String,
         required: true,
     },
-    team_name: String,
-    team_id: Number,
-    position_name: String,
-    position_id: String,
-    sex: {
+    manager_id: String,
+    team_name: {
         type: String,
-        required: true,
+        required: true
     },
-    age_years: Number,
-    date_of_birth: Date,
-    personal_score: Number,
-    kudos_sent: Number,
-    kudos_received: Number,
+    team_id: Number,
+    position_name: {
+        type: String,
+        required: true
+    },
+    position_id: String,
+    //sent
+    sex: String,
+    //sent
+    age: Number,
+    personal_score: {
+        default: 0,
+        type: Number
+    },
+    kudos_sent: {
+        default: 0,
+        type: Number
+    },
+    kudos_received: {
+        default: 0,
+        type: Number
+    },
     user_picture: String,
+    password: String
 });
 
 module.exports = mongoose.model('User', UserSchema);
