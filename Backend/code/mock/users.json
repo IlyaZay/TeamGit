@@ -1,0 +1,938 @@
+[
+ {
+   "first_name": "Dunc",
+   "last_name": "Ibeson",
+   "email": "dibeson0@un.org",
+   "team": "",
+   "position_name": "CEO",
+   "manager_id": ""
+ },
+ {
+   "first_name": "Easter",
+   "last_name": "Schiersch",
+   "email": "eschiersch1@bbb.org",
+   "team": "",
+   "position_name": "COO",
+   "manager_id": "c24ba3b5-508f-9715-4f3a-f1c1d6ebbcf4"
+ },
+ {
+   "first_name": "Chrisse",
+   "last_name": "Pittam",
+   "email": "cpittam2@amazon.com",
+   "team": "",
+   "position_name": "CTO",
+   "manager_id": "c24ba3b5-508f-9715-4f3a-f1c1d6ebbcf4"
+ },
+ {
+   "first_name": "Arlen",
+   "last_name": "Petrosian",
+   "email": "apetrosian3@over-blog.com",
+   "team": "Dashboard",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Carey",
+   "last_name": "Rapsey",
+   "email": "crapsey4@wikipedia.org",
+   "team": "Dashboard",
+   "position_name": "Lead Software Developer",
+   "manager_id": "04697167-b004-4260-a78d-e340c1c63f4a"
+ },
+ {
+   "first_name": "Homer",
+   "last_name": "Mackley",
+   "email": "hmackley5@scientificamerican.com",
+   "team": "Dashboard",
+   "position_name": "Lead Software Developer",
+   "manager_id": "04697167-b004-4260-a78d-e340c1c63f4a"
+ },
+ {
+   "first_name": "Neile",
+   "last_name": "Boram",
+   "email": "nboram6@rediff.com",
+   "team": "Dashboard",
+   "position_name": "Senior Software Developer",
+   "manager_id": "04697167-b004-4260-a78d-e340c1c63f4a"
+ },
+ {
+   "first_name": "Isidro",
+   "last_name": "Cluley",
+   "email": "icluley7@hugedomains.com",
+   "team": "Dashboard",
+   "position_name": "Senior Software Developer",
+   "manager_id": "04697167-b004-4260-a78d-e340c1c63f4a"
+ },
+ {
+   "first_name": "Rafi",
+   "last_name": "Goldney",
+   "email": "rgoldney8@nasa.gov",
+   "team": "Dashboard",
+   "position_name": "Senior Software Developer",
+   "manager_id": "4fe0c8b4-ec0c-4727-98e1-4e479ff0e4be"
+ },
+ {
+   "first_name": "Nike",
+   "last_name": "Westmarland",
+   "email": "nwestmarland9@bloomberg.com",
+   "team": "Dashboard",
+   "position_name": "Software Developer",
+   "manager_id": "04697167-b004-4260-a78d-e340c1c63f4a"
+ },
+ {
+   "first_name": "Roxanna",
+   "last_name": "McCritchie",
+   "email": "rmccritchiea@homestead.com",
+   "team": "Dashboard",
+   "position_name": "Software Developer",
+   "manager_id": "04697167-b004-4260-a78d-e340c1c63f4a"
+ },
+ {
+   "first_name": "Myrvyn",
+   "last_name": "Syrad",
+   "email": "msyradb@1688.com",
+   "team": "Dashboard",
+   "position_name": "Software Developer",
+   "manager_id": "4fe0c8b4-ec0c-4727-98e1-4e479ff0e4be"
+ },
+ {
+   "first_name": "Horace",
+   "last_name": "Ockendon",
+   "email": "hockendonc@cam.ac.uk",
+   "team": "Dashboard",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "04697167-b004-4260-a78d-e340c1c63f4a"
+ },
+ {
+   "first_name": "Goldy",
+   "last_name": "Moyes",
+   "email": "gmoyesd@statcounter.com",
+   "team": "Dashboard",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "4fe0c8b4-ec0c-4727-98e1-4e479ff0e4be"
+ },
+ {
+   "first_name": "Miran",
+   "last_name": "Izakovitz",
+   "email": "mizakovitze@topsy.com",
+   "team": "Authoring Tools",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Val",
+   "last_name": "Cardnell",
+   "email": "vcardnellf@google.com.hk",
+   "team": "Authoring Tools",
+   "position_name": "Lead Software Developer",
+   "manager_id": "e47e0523-7eee-420d-b96a-75b08e52f985"
+ },
+ {
+   "first_name": "Cordie",
+   "last_name": "Antonelli",
+   "email": "cantonellig@yolasite.com",
+   "team": "Authoring Tools",
+   "position_name": "Lead Software Developer",
+   "manager_id": "e47e0523-7eee-420d-b96a-75b08e52f985"
+ },
+ {
+   "first_name": "Andris",
+   "last_name": "Gallehock",
+   "email": "agallehockh@zimbio.com",
+   "team": "Authoring Tools",
+   "position_name": "Lead Software Developer",
+   "manager_id": "e47e0523-7eee-420d-b96a-75b08e52f985"
+ },
+ {
+   "first_name": "Baudoin",
+   "last_name": "Hampstead",
+   "email": "bhampsteadi@washington.edu",
+   "team": "Authoring Tools",
+   "position_name": "Senior Software Developer",
+   "manager_id": "e47e0523-7eee-420d-b96a-75b08e52f985"
+ },
+ {
+   "first_name": "Sloan",
+   "last_name": "Lafee",
+   "email": "slafeej@foxnews.com",
+   "team": "Authoring Tools",
+   "position_name": "Senior Software Developer",
+   "manager_id": "c24ba3b5-e51e-4de9-97c4-e2218ffec5ac"
+ },
+ {
+   "first_name": "Rodolph",
+   "last_name": "Ortega",
+   "email": "rortegak@blogger.com",
+   "team": "Authoring Tools",
+   "position_name": "Senior Software Developer",
+   "manager_id": "3839994f-185f-4970-9ce5-dc3b7bd5d343"
+ },
+ {
+   "first_name": "Gabbie",
+   "last_name": "Wallworke",
+   "email": "gwallworkel@lycos.com",
+   "team": "Authoring Tools",
+   "position_name": "Software Developer",
+   "manager_id": "e47e0523-7eee-420d-b96a-75b08e52f985"
+ },
+ {
+   "first_name": "Farrand",
+   "last_name": "Fliege",
+   "email": "ffliegem@usda.gov",
+   "team": "Authoring Tools",
+   "position_name": "Software Developer",
+   "manager_id": "c24ba3b5-e51e-4de9-97c4-e2218ffec5ac"
+ },
+ {
+   "first_name": "Carolus",
+   "last_name": "Lownes",
+   "email": "clownesn@shinystat.com",
+   "team": "Authoring Tools",
+   "position_name": "Software Developer",
+   "manager_id": "e47e0523-7eee-420d-b96a-75b08e52f985"
+ },
+ {
+   "first_name": "Binny",
+   "last_name": "Garnham",
+   "email": "bgarnhamo@last.fm",
+   "team": "Authoring Tools",
+   "position_name": "Software Developer",
+   "manager_id": "3839994f-185f-4970-9ce5-dc3b7bd5d343"
+ },
+ {
+   "first_name": "Kayley",
+   "last_name": "Hamblin",
+   "email": "khamblinp@alexa.com",
+   "team": "Authoring Tools",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "c24ba3b5-e51e-4de9-97c4-e2218ffec5ac"
+ },
+ {
+   "first_name": "Olag",
+   "last_name": "Younge",
+   "email": "oyoungeq@senate.gov",
+   "team": "Authoring Tools",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "e47e0523-7eee-420d-b96a-75b08e52f985"
+ },
+ {
+   "first_name": "Kayley",
+   "last_name": "Oganian",
+   "email": "koganianr@dailymotion.com",
+   "team": "Quality Insurance",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Jeni",
+   "last_name": "Heak",
+   "email": "jheaks@utexas.edu",
+   "team": "Quality Insurance",
+   "position_name": "Lead Software Developer",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Zeb",
+   "last_name": "Sango",
+   "email": "zsangot@cdc.gov",
+   "team": "Quality Insurance",
+   "position_name": "Lead Software Developer",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Dylan",
+   "last_name": "Aberdeen",
+   "email": "daberdeenu@xing.com",
+   "team": "Quality Insurance",
+   "position_name": "Lead Software Developer",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Dimitri",
+   "last_name": "Gregg",
+   "email": "dgreggv@wiley.com",
+   "team": "Quality Insurance",
+   "position_name": "Senior Software Developer",
+   "manager_id": "cb257552-2661-4d4d-aa8e-f2781f03f53b"
+ },
+ {
+   "first_name": "Jany",
+   "last_name": "Andreuzzi",
+   "email": "jandreuzziw@yolasite.com",
+   "team": "Quality Insurance",
+   "position_name": "Senior Software Developer",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Steffie",
+   "last_name": "Ceccoli",
+   "email": "sceccolix@trellian.com",
+   "team": "Quality Insurance",
+   "position_name": "Senior Software Developer",
+   "manager_id": "8e344cb8-6732-47ed-8ae6-61cca4d612aa"
+ },
+ {
+   "first_name": "Bridie",
+   "last_name": "Tenwick",
+   "email": "btenwicky@themeforest.net",
+   "team": "Quality Insurance",
+   "position_name": "Software Developer",
+   "manager_id": "cb257552-2661-4d4d-aa8e-f2781f03f53b"
+ },
+ {
+   "first_name": "Law",
+   "last_name": "Legerwood",
+   "email": "llegerwoodz@istockphoto.com",
+   "team": "Quality Insurance",
+   "position_name": "Software Developer",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Beilul",
+   "last_name": "Westbury",
+   "email": "bwestbury10@chronoengine.com",
+   "team": "Quality Insurance",
+   "position_name": "Software Developer",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Obie",
+   "last_name": "Polley",
+   "email": "opolley11@vimeo.com",
+   "team": "Quality Insurance",
+   "position_name": "Software Developer",
+   "manager_id": "8e344cb8-6732-47ed-8ae6-61cca4d612aa"
+ },
+ {
+   "first_name": "Murial",
+   "last_name": "Cordero",
+   "email": "mcordero12@thetimes.co.uk",
+   "team": "Quality Insurance",
+   "position_name": "Software Developer",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Meghann",
+   "last_name": "Radborne",
+   "email": "mradborne13@bizjournals.com",
+   "team": "Quality Insurance",
+   "position_name": "Software Developer",
+   "manager_id": "cb257552-2661-4d4d-aa8e-f2781f03f53b"
+ },
+ {
+   "first_name": "Pepillo",
+   "last_name": "Rohmer",
+   "email": "prohmer14@google.nl",
+   "team": "Quality Insurance",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Morty",
+   "last_name": "Puttock",
+   "email": "mputtock15@shareasale.com",
+   "team": "Quality Insurance",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "a9a5dab0-8990-407a-9769-9af89671d362"
+ },
+ {
+   "first_name": "Holly",
+   "last_name": "Lenden",
+   "email": "hlenden16@altervista.org",
+   "team": "Quality Insurance",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "8e344cb8-6732-47ed-8ae6-61cca4d612aa"
+ },
+ {
+   "first_name": "Ange",
+   "last_name": "Sulland",
+   "email": "asulland17@mtv.com",
+   "team": "Ad Delivery",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Alister",
+   "last_name": "Pittman",
+   "email": "apittman18@hexun.com",
+   "team": "Ad Delivery",
+   "position_name": "Lead Software Developer",
+   "manager_id": "fd9c654e-a5c7-407f-9f86-291d2394c409"
+ },
+ {
+   "first_name": "Shoshana",
+   "last_name": "Bachura",
+   "email": "sbachura19@alibaba.com",
+   "team": "Ad Delivery",
+   "position_name": "Senior Software Developer",
+   "manager_id": "fd9c654e-a5c7-407f-9f86-291d2394c409"
+ },
+ {
+   "first_name": "Meara",
+   "last_name": "Simonetti",
+   "email": "msimonetti1a@nih.gov",
+   "team": "Ad Delivery",
+   "position_name": "Senior Software Developer",
+   "manager_id": "fd9c654e-a5c7-407f-9f86-291d2394c409"
+ },
+ {
+   "first_name": "Holly",
+   "last_name": "Halleybone",
+   "email": "hhalleybone1b@naver.com",
+   "team": "Ad Delivery",
+   "position_name": "Software Developer",
+   "manager_id": "fd9c654e-a5c7-407f-9f86-291d2394c409"
+ },
+ {
+   "first_name": "Laughton",
+   "last_name": "Parncutt",
+   "email": "lparncutt1c@engadget.com",
+   "team": "Ad Delivery",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "7e82e612-92fd-4178-8bf8-7e88a189681f"
+ },
+ {
+   "first_name": "Daisy",
+   "last_name": "Epperson",
+   "email": "depperson1d@cbsnews.com",
+   "team": "DevOps",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Cristian",
+   "last_name": "McIlheran",
+   "email": "cmcilheran1e@unesco.org",
+   "team": "DevOps",
+   "position_name": "Lead DevOps Engineer",
+   "manager_id": "7b305e77-3e79-44a5-958b-730f68a68a7e"
+ },
+ {
+   "first_name": "Alida",
+   "last_name": "Deddum",
+   "email": "adeddum1f@last.fm",
+   "team": "DevOps",
+   "position_name": "Senior DevOps Engineer",
+   "manager_id": "7b305e77-3e79-44a5-958b-730f68a68a7e"
+ },
+ {
+   "first_name": "Jeri",
+   "last_name": "O'Ruane",
+   "email": "joruane1g@simplemachines.org",
+   "team": "DevOps",
+   "position_name": "DevOps Engineer",
+   "manager_id": "a0b48f82-2612-47bb-b1df-818c1fd79df0"
+ },
+ {
+   "first_name": "Fredric",
+   "last_name": "Trustey",
+   "email": "ftrustey1h@guardian.co.uk",
+   "team": "DevOps",
+   "position_name": "DevOps Engineer",
+   "manager_id": "7b305e77-3e79-44a5-958b-730f68a68a7e"
+ },
+ {
+   "first_name": "Dahlia",
+   "last_name": "Staunton",
+   "email": "dstaunton1i@columbia.edu",
+   "team": "DevOps",
+   "position_name": "DevOps Engineer Intern",
+   "manager_id": "7b305e77-3e79-44a5-958b-730f68a68a7e"
+ },
+ {
+   "first_name": "Kath",
+   "last_name": "Banker",
+   "email": "kbanker1j@about.me",
+   "team": "Analytics",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Shurwood",
+   "last_name": "Bertolin",
+   "email": "sbertolin1k@salon.com",
+   "team": "Analytics",
+   "position_name": "Lead Software Developer",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Hallie",
+   "last_name": "Gockelen",
+   "email": "hgockelen1l@ihg.com",
+   "team": "Analytics",
+   "position_name": "Senior Software Developer",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Papageno",
+   "last_name": "Gillman",
+   "email": "pgillman1m@blinklist.com",
+   "team": "Analytics",
+   "position_name": "Senior Software Developer",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Isidoro",
+   "last_name": "Galway",
+   "email": "igalway1n@vkontakte.ru",
+   "team": "Analytics",
+   "position_name": "Senior Software Developer",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Tessy",
+   "last_name": "Heliot",
+   "email": "theliot1o@hc360.com",
+   "team": "Analytics",
+   "position_name": "Software Developer",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Arley",
+   "last_name": "Westmancoat",
+   "email": "awestmancoat1p@fema.gov",
+   "team": "Analytics",
+   "position_name": "Software Developer",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Penelope",
+   "last_name": "Dishmon",
+   "email": "pdishmon1q@nih.gov",
+   "team": "Analytics",
+   "position_name": "Software Developer",
+   "manager_id": "9205dd58-283b-4506-b52f-0626b480ff6d"
+ },
+ {
+   "first_name": "Margo",
+   "last_name": "Aspling",
+   "email": "maspling1r@admin.ch",
+   "team": "Analytics",
+   "position_name": "Software Developer",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Selig",
+   "last_name": "Collimore",
+   "email": "scollimore1s@ycombinator.com",
+   "team": "Analytics",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Alison",
+   "last_name": "Fretson",
+   "email": "afretson1t@ycombinator.com",
+   "team": "Analytics",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "a7e101e0-0950-41cc-89ca-5d176d9c7888"
+ },
+ {
+   "first_name": "Piper",
+   "last_name": "Jerram",
+   "email": "pjerram1u@ucla.edu",
+   "team": "Analytics",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "9205dd58-283b-4506-b52f-0626b480ff6d"
+ },
+ {
+   "first_name": "Serene",
+   "last_name": "Duckering",
+   "email": "sduckering1v@census.gov",
+   "team": "Support",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Bethanne",
+   "last_name": "Gasnoll",
+   "email": "bgasnoll1w@pen.io",
+   "team": "Support",
+   "position_name": "Lead Technical Support Specialist",
+   "manager_id": "5d97a2db-b613-4055-8d60-d9e51b704d3b"
+ },
+ {
+   "first_name": "Ethe",
+   "last_name": "Stockell",
+   "email": "estockell1x@fotki.com",
+   "team": "Support",
+   "position_name": "Senior Technical Support Specialist",
+   "manager_id": "5d97a2db-b613-4055-8d60-d9e51b704d3b"
+ },
+ {
+   "first_name": "Ethelda",
+   "last_name": "Stanworth",
+   "email": "estanworth1y@addthis.com",
+   "team": "Support",
+   "position_name": "Senior Technical Support Specialist",
+   "manager_id": "5d97a2db-b613-4055-8d60-d9e51b704d3b"
+ },
+ {
+   "first_name": "Leif",
+   "last_name": "Beisley",
+   "email": "lbeisley1z@rakuten.co.jp",
+   "team": "Support",
+   "position_name": "Senior Technical Support Specialist",
+   "manager_id": "5d97a2db-b613-4055-8d60-d9e51b704d3b"
+ },
+ {
+   "first_name": "Dale",
+   "last_name": "Freeburn",
+   "email": "dfreeburn20@symantec.com",
+   "team": "Support",
+   "position_name": "Technical Support Specialist",
+   "manager_id": "5d97a2db-b613-4055-8d60-d9e51b704d3b"
+ },
+ {
+   "first_name": "Heriberto",
+   "last_name": "Melvin",
+   "email": "hmelvin21@wisc.edu",
+   "team": "Support",
+   "position_name": "Technical Support Specialist",
+   "manager_id": "5d97a2db-b613-4055-8d60-d9e51b704d3b"
+ },
+ {
+   "first_name": "Laverna",
+   "last_name": "Simonato",
+   "email": "lsimonato22@sourceforge.net",
+   "team": "Support",
+   "position_name": "Technical Support Specialist",
+   "manager_id": "5d97a2db-b613-4055-8d60-d9e51b704d3b"
+ },
+ {
+   "first_name": "Alfy",
+   "last_name": "Kilian",
+   "email": "akilian23@cam.ac.uk",
+   "team": "Video",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Lolita",
+   "last_name": "Gaitone",
+   "email": "lgaitone24@multiply.com",
+   "team": "Video",
+   "position_name": "Lead Software Developer",
+   "manager_id": "c30fd569-c1f7-4053-8ab6-6e7f23ccf7de"
+ },
+ {
+   "first_name": "Duncan",
+   "last_name": "Crozier",
+   "email": "dcrozier25@mac.com",
+   "team": "Video",
+   "position_name": "Senior Software Developer",
+   "manager_id": "c30fd569-c1f7-4053-8ab6-6e7f23ccf7de"
+ },
+ {
+   "first_name": "Vidovic",
+   "last_name": "Sheilds",
+   "email": "vsheilds26@eventbrite.com",
+   "team": "Video",
+   "position_name": "Senior Software Developer",
+   "manager_id": "c30fd569-c1f7-4053-8ab6-6e7f23ccf7de"
+ },
+ {
+   "first_name": "Roxine",
+   "last_name": "Gratten",
+   "email": "rgratten27@imgur.com",
+   "team": "Video",
+   "position_name": "Software Developer",
+   "manager_id": "89c96cd1-ce32-49ae-ada4-d2a7775d95e4"
+ },
+ {
+   "first_name": "Hilary",
+   "last_name": "Gircke",
+   "email": "hgircke28@census.gov",
+   "team": "Video",
+   "position_name": "Software Developer",
+   "manager_id": "c30fd569-c1f7-4053-8ab6-6e7f23ccf7de"
+ },
+ {
+   "first_name": "Denny",
+   "last_name": "Crudginton",
+   "email": "dcrudginton29@theglobeandmail.com",
+   "team": "Video",
+   "position_name": "Software Developer",
+   "manager_id": "c30fd569-c1f7-4053-8ab6-6e7f23ccf7de"
+ },
+ {
+   "first_name": "Marjory",
+   "last_name": "Tolman",
+   "email": "mtolman2a@exblog.jp",
+   "team": "Video",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "89c96cd1-ce32-49ae-ada4-d2a7775d95e4"
+ },
+ {
+   "first_name": "Jerri",
+   "last_name": "Whatling",
+   "email": "jwhatling2b@slideshare.net",
+   "team": "Data Insights",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Emlyn",
+   "last_name": "Jurca",
+   "email": "ejurca2c@printfriendly.com",
+   "team": "Data Insights",
+   "position_name": "Lead Data Scientist",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Bernadette",
+   "last_name": "Sobieski",
+   "email": "bsobieski2d@jugem.jp",
+   "team": "Data Insights",
+   "position_name": "Senior Data Scientist",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Megan",
+   "last_name": "Behagg",
+   "email": "mbehagg2e@zimbio.com",
+   "team": "Data Insights",
+   "position_name": "Senior Data Scientist",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Herve",
+   "last_name": "Noorwood",
+   "email": "hnoorwood2f@gravatar.com",
+   "team": "Data Insights",
+   "position_name": "Senior Data Scientist",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Meryl",
+   "last_name": "Crinkley",
+   "email": "mcrinkley2g@fda.gov",
+   "team": "Data Insights",
+   "position_name": "Data Scientist",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Raina",
+   "last_name": "McCue",
+   "email": "rmccue2h@xrea.com",
+   "team": "Data Insights",
+   "position_name": "Data Scientist",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Lisa",
+   "last_name": "Bernette",
+   "email": "lbernette2i@blogs.com",
+   "team": "Data Insights",
+   "position_name": "Data Engineer",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Loise",
+   "last_name": "Heinsh",
+   "email": "lheinsh2j@dell.com",
+   "team": "Data Insights",
+   "position_name": "Data Engineer",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Hildegaard",
+   "last_name": "Kellie",
+   "email": "hkellie2k@lulu.com",
+   "team": "Data Insights",
+   "position_name": "Data Scientist Intern",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Emlyn",
+   "last_name": "Marsden",
+   "email": "emarsden2l@plala.or.jp",
+   "team": "Data Insights",
+   "position_name": "Data Scientist Intern",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Gran",
+   "last_name": "Salmond",
+   "email": "gsalmond2m@barnesandnoble.com",
+   "team": "Data Insights",
+   "position_name": "Data Scientist Intern",
+   "manager_id": "3e3aa907-3a75-4ab7-85a7-53fb6245f711"
+ },
+ {
+   "first_name": "Beaufort",
+   "last_name": "Lawry",
+   "email": "blawry2n@nature.com",
+   "team": "Project Management",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Shirlene",
+   "last_name": "D'Avaux",
+   "email": "sdavaux2o@pbs.org",
+   "team": "Project Management",
+   "position_name": "Project Lead",
+   "manager_id": "bd675b01-9f1e-43a3-83c4-2dc213421e61"
+ },
+ {
+   "first_name": "Miller",
+   "last_name": "Beldum",
+   "email": "mbeldum2p@fda.gov",
+   "team": "Project Management",
+   "position_name": "Project Lead",
+   "manager_id": "bd675b01-9f1e-43a3-83c4-2dc213421e61"
+ },
+ {
+   "first_name": "Janene",
+   "last_name": "Tedman",
+   "email": "jtedman2q@skype.com",
+   "team": "Ad Serving",
+   "position_name": "Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Thorny",
+   "last_name": "Readings",
+   "email": "treadings2r@wordpress.com",
+   "team": "Ad Serving",
+   "position_name": "Lead Software Developer",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Northrop",
+   "last_name": "Matley",
+   "email": "nmatley2s@uiuc.edu",
+   "team": "Ad Serving",
+   "position_name": "Lead Software Developer",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Ludwig",
+   "last_name": "Mangenot",
+   "email": "lmangenot2t@marriott.com",
+   "team": "Ad Serving",
+   "position_name": "Senior Software Developer",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Mabelle",
+   "last_name": "Keetch",
+   "email": "mkeetch2u@artisteer.com",
+   "team": "Ad Serving",
+   "position_name": "Senior Software Developer",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Ethe",
+   "last_name": "McGarrell",
+   "email": "emcgarrell2v@newsvine.com",
+   "team": "Ad Serving",
+   "position_name": "Senior Software Developer",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Jervis",
+   "last_name": "Cleaton",
+   "email": "jcleaton2w@indiegogo.com",
+   "team": "Ad Serving",
+   "position_name": "Software Developer",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Wallie",
+   "last_name": "Bysshe",
+   "email": "wbysshe2x@mlb.com",
+   "team": "Ad Serving",
+   "position_name": "Software Developer",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Hillard",
+   "last_name": "Mattiussi",
+   "email": "hmattiussi2y@bizjournals.com",
+   "team": "Ad Serving",
+   "position_name": "Software Engineer Intern",
+   "manager_id": "d0a67ada-4613-4a52-bcb3-12f6bbfb9a61"
+ },
+ {
+   "first_name": "Nydia",
+   "last_name": "Mollett",
+   "email": "nmollett2z@fc2.com",
+   "team": "Customer Success",
+   "position_name": "Account Director",
+   "manager_id": "78e4ba66-8f61-435e-961d-2dfe0c9d41ac"
+ },
+ {
+   "first_name": "Myrna",
+   "last_name": "Debold",
+   "email": "mdebold30@youku.com",
+   "team": "Customer Success",
+   "position_name": "Senior Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Tobin",
+   "last_name": "Jeacocke",
+   "email": "tjeacocke31@unicef.org",
+   "team": "Customer Success",
+   "position_name": "Senior Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Tito",
+   "last_name": "Braunfeld",
+   "email": "tbraunfeld32@cmu.edu",
+   "team": "Customer Success",
+   "position_name": "Senior Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Zeb",
+   "last_name": "Alejandro",
+   "email": "zalejandro33@typepad.com",
+   "team": "Customer Success",
+   "position_name": "Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Leonore",
+   "last_name": "Scothorne",
+   "email": "lscothorne34@sciencedaily.com",
+   "team": "Customer Success",
+   "position_name": "Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Frasco",
+   "last_name": "Oke",
+   "email": "foke35@squarespace.com",
+   "team": "Customer Success",
+   "position_name": "Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Zelma",
+   "last_name": "Shovlar",
+   "email": "zshovlar36@ucsd.edu",
+   "team": "Customer Success",
+   "position_name": "Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Emmott",
+   "last_name": "Aherne",
+   "email": "eaherne37@fastcompany.com",
+   "team": "Customer Success",
+   "position_name": "Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ },
+ {
+   "first_name": "Chev",
+   "last_name": "Geraldo",
+   "email": "cgeraldo38@noaa.gov",
+   "team": "Customer Success",
+   "position_name": "Account Manager",
+   "manager_id": "426499ec-84f0-4fc9-b867-2aa92b477445"
+ }
+]
