@@ -19,7 +19,6 @@ nav {
 }
 
 nav .kudoStatsGeneral {
-
   display: flex;
   flex-grow: 10;
   justify-content: center;
@@ -40,20 +39,20 @@ nav .userRank {
   padding: 20px;
 }
 
-nav .kudoStats label{
+nav .kudoStats label {
   font-size: 30px;
 }
-nav .kudoStats button{
+
+nav .kudoStats button {
   background-color: white;
   transition-duration: 0.4s;
-  padding: 20px 80px ;
-
+  padding: 20px 80px;
 }
-nav .kudoStats button:hover{
+
+nav .kudoStats button:hover {
   box-shadow: 3px 7px gray;
-
-
 }
+
 nav .kudoStats .element {
   align-self: flex-end;
   margin: 20px;
@@ -62,19 +61,19 @@ nav .kudoStats .element {
 nav .userRank .element {
   margin: 20px;
 }
-nav .userRank label{
+
+nav .userRank label {
   font-size: 30px;
 }
-nav .userRank button{
+
+nav .userRank button {
   margin-left: 10px;
   transition-duration: 0.4s;
-  padding: 15px 25px ;
+  padding: 15px 25px;
 }
-nav .userRank button:hover{
 
+nav .userRank button:hover {
   box-shadow: 3px 7px gray;
-
-
 }
 
 nav .image {
@@ -86,19 +85,19 @@ nav .imageProfile {
   margin-left: 80px;
   margin-top: 20px;
 }
-nav #userProfilePic{
+
+nav #userProfilePic {
   max-width: 300px;
-
 }
-nav .ins-image{
+
+nav .ins-image {
   display: inline;
-
 }
-nav  .ins-image:hover  #userProfilePic{
+
+nav .ins-image:hover #userProfilePic {
   transition: .4s;
   opacity: 0.6;
 }
-
 
 nav .kRec {
   flex-grow: 1;
@@ -121,8 +120,6 @@ nav .kudoStatsGeneral .userRank button {
   border-radius: 50px;
 }
 
-
-
 .main {
   display: flex;
   margin: 50px;
@@ -134,37 +131,91 @@ nav .kudoStatsGeneral .userRank button {
   justify-content: space-between;
 }
 
-.left #dailyQuote{
+.left #dailyQuote {
+  display: none;
+}
+.left #yourScore{
   display: none;
 }
 
-.left .leaderbords {
+.left .kudosRec {
   align-items: center;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   box-shadow: 5px 10px #5C5C5C;
   text-align: center;
   border-radius: 20px;
   flex-grow: 10;
-  margin-right: 40px;
+  margin: 0px 40px;
   background-color: #fff;
   min-width: 400px;
 }
+.left .kudosRec ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-
-.left .leaderbords h2{
+.left .kudosRec ul .kudoElement {
+  max-width: 400px;
+  text-align: center;
+  background-color: #ffffcc;
   padding: 20px;
-  background-color: #008ae6;
+  box-shadow: 5px 10px #5C5C5C;
+  margin: 30px 0px;
+  margin-right: 30px;
   border-radius: 20px;
 
-
-
-}
-.left .leaderbords ul{
-  margin-right: 50px;
 }
 
-.left .yourScoreBox{
+
+.left .kudosSent h2 {
+  padding: 20px;
+  box-shadow: 3px 7px #5C5C5C;
+  background-color: #008ae6;
+  border-radius: 20px;
+}
+
+.left .kudosSent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 10px #5C5C5C;
+  text-align: center;
+  border-radius: 20px;
+  flex-grow: 10;
+  margin: 0px 40px;
+  background-color: #fff;
+  min-width: 400px;
+}
+.left .kudosSent ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left .kudosSent ul .kudoElement {
+  max-width: 400px;
+  text-align: center;
+  background-color: #ffffcc;
+  padding: 20px;
+  box-shadow: 5px 10px #5C5C5C;
+  margin: 30px 0px;
+  margin-right: 30px;
+  border-radius: 20px;
+
+}
+
+
+.left .kudosRec h2 {
+  padding: 20px;
+  box-shadow: 3px 7px #5C5C5C;
+  background-color: #008ae6;
+  border-radius: 20px;
+}
+
+.left .yourScoreBox {
+  display: none;
   position: relative;
   align-self: flex-start;
   top: -40px;
@@ -179,7 +230,7 @@ nav .kudoStatsGeneral .userRank button {
   border-radius: 20px;
 }
 
-ul li {
+/* ul li {
   list-style: none;
 }
 
@@ -203,9 +254,7 @@ ul li .circleThird{
   padding: 20px;
   border-radius: 20px;
   border: none;
-}
-
-
+} */
 .container {
   box-shadow: 5px 10px #5C5C5C;
   flex-grow: 1;
@@ -225,29 +274,30 @@ ul li .circleThird{
 .container p {
   display: inline;
 }
+
 #logOutButton {
   transition-duration: 0.4s;
-  background-color:#008ae6;
+  background-color: #008ae6;
   border: none;
   border-radius: 20px;
   padding: 20px;
 }
+
 #settingsButton {
   transition-duration: 0.4s;
-  background-color:#008ae6;
+  background-color: #008ae6;
   border: none;
   border-radius: 20px;
   padding: 20px;
 }
-#logOutButton:hover{
-  box-shadow: 3px 7px gray;
 
-}
-#settingsButton:hover{
+#logOutButton:hover {
   box-shadow: 3px 7px gray;
-
 }
 
+#settingsButton:hover {
+  box-shadow: 3px 7px gray;
+}
 
 .right {
   flex-grow: 1;
@@ -271,16 +321,15 @@ ul li .circleThird{
   resize: none;
   text-align: center;
 }
-.right .notes .noteHead{
-  margin: 20px 0px;
 
+.right .notes .noteHead {
+  margin: 20px 0px;
 }
-.right .notes h1{
+
+.right .notes h1 {
   font-size: 25px;
   display: inline;
   padding: 20px;
   border-radius: 20px;
   background-color: #008ae6;
-
-
 }

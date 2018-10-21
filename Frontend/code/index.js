@@ -30,3 +30,10 @@ function openLeaderbords(){
 
 
 }
+function openKudoRecSent(){
+
+  // alert("OPENING LEADERBORDS");
+  window.open("./kudoRecSent.html","_self");
+
+
+}

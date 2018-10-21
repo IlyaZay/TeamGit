@@ -3,11 +3,10 @@
 
 <head>
   <title>User Page</title>
-  <link rel="stylesheet" href="/css/leaderbords.css">
-  <script type="text/javascript" src="/js/user.js">
+  <link rel="stylesheet" href="/css/kudoRecSent.css">
+  <script type="text/javascript" src="/js/kudo.js">
   </script>
   <script type="text/javascript" src="index.js">
-
   </script>
   <script src="https://unpkg.com/vue"></script>
 
@@ -47,11 +46,11 @@
 
         <div class="element">
           <label style="margin-top: 25px; margin-right:20px;"> KUDO Recived </label>
-          <button type="button" id="kudosRecived" onclick="openKudoRecSent()">6</button>
+          <button type="button" id="kudosRecived">6</button>
         </div>
         <div class="element">
           <label style="margin-top: 25px; margin-right:20px;"> KUDO Sent </label>
-          <button type="button" id="kudosSent" onclick="openKudoRecSent()">6</button>
+          <button type="button" id="kudosSent">6</button>
         </div>
 
 
@@ -103,21 +102,18 @@
 
       </div>
 
-      <div class="yourScoreBox" >
-          <h3>Your score: </h3>
-        <p id="yourScore" > 100 </p>
-
-
+      <div id="yourScore">
+        <!-- Not for use  -->
       </div>
 
       <div id="dailyQuote">
         <!-- Not For Use -->
       </div>
 
-      <div class="leaderbords">
+      <div class="kudosRec">
 
         <div class="">
-            <h2>LEADERBORDS</h2>
+          <h2>KUDOS recived</h2>
         </div>
         <hr style="width: 80%; border: 1px solid gray;">
 
@@ -125,22 +121,56 @@
 
         <ul>
 
-          <li>
-            <button type="button" class="circleFirst"></button>
-            <label id="firstPlace">No one - </label>
-            <label id="firstPoints"> 0 </label>
-          </li>
-          <li>
-            <button type="button" class="circleSecound"></button>
-            <label id="secoundPlace">No one - </label>
-            <label id="secoundPoints"> 0 </label>
-          </li>
-          <li>
-            <button type="button" class="circleThird"></button>
-            <label id="thirdPlace">No one - </label>
-            <label id="thirdPoints"> 0 </label>
-          </li>
 
+            <div class="kudoElement">
+                <h3 id="kudoTheme" >KUDO THEME</h3>
+                <p id="kudoText" >KUDO TEXT</p>
+            </div>
+            <div class="kudoElement">
+                <h3 id="kudoTheme2" >KUDO THEME</h3>
+                <p id="kudoText2" >KUDO TEXT</p>
+            </div>
+
+            <div class="kudoElement">
+                <h3 id="kudoTheme3" >KUDO THEME</h3>
+                <p id="kudoText3" >KUDO TEXT</p>
+            </div>
+            <div class="kudoElement">
+                <h3 id="kudoTheme4" >KUDO THEME</h3>
+                <p id="kudoText4" >KUDO TEXT</p>
+            </div>
+
+
+
+
+
+
+        </ul>
+
+
+
+
+      </div>
+      <div class="kudosSent">
+
+        <div class="">
+          <h2>KUDOS sent</h2>
+        </div>
+        <hr style="width: 80%; border: 1px solid gray;">
+
+
+
+        <ul>
+
+
+            <div class="kudoElement">
+                <h3 id="kudoThemeSent" >KUDO THEME</h3>
+                <p id="kudoTextSent" >KUDO TEXT</p>
+            </div>
+            <div class="kudoElement">
+                <h3 id="kudoTheme2Sent" >KUDO THEME</h3>
+                <p id="kudoText2Sent" >KUDO TEXT</p>
+            </div>
 
 
 
@@ -159,7 +189,7 @@
 
       <div class="notes">
         <div class="noteHead">
-            <h1>NOTES</h1>
+          <h1>NOTES</h1>
         </div>
 
 
@@ -171,8 +201,7 @@
 
   </div>
 
-  <hr style="width: 100%;">
-  <div style="margin-bottom: 500px;">
+  <div style="margin-bottom: 200px;">
   </div>
 
   <footer>

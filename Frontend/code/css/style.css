@@ -66,6 +66,7 @@ nav .userRank label{
   font-size: 30px;
 }
 nav .userRank button{
+  margin-left: 10px;
   transition-duration: 0.4s;
   padding: 15px 25px ;
 }
@@ -149,8 +150,15 @@ nav .kudoStatsGeneral .userRank button {
   background-color:#008ae6;
   border-radius: 20px;
 }
+#graphImage{
+
+  width: 200px;
+
+
+}
 
 .left .randomQuote {
+  min-width: 200px;
   position: relative;
   align-self: flex-start;
   top: -40px;
@@ -164,23 +172,9 @@ nav .kudoStatsGeneral .userRank button {
   margin: 50px;
   border-radius: 20px;
 }
-.left .crossSection {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: space-around;
-  top: -40px;
-  max-width: 200px;
-  text-align: center;
-  background-color: white;
-  padding: 50px;
-  box-shadow: 5px 10px #5C5C5C;
-  flex-grow: 1;
-  margin-top: 0px;
-  margin: 50px;
-  border-radius: 20px;
+.left #yourScore{
+  display: none;
 }
-
 
 
 
@@ -250,8 +244,12 @@ nav .kudoStatsGeneral .userRank button {
   margin: 20px 40px;
 }
 
+.right .notes .noteHead{
+  margin: 20px 0px;
 
+}
 .right .notes h1{
+  font-size: 25px;
   display: inline;
   padding: 20px;
   border-radius: 20px;

@@ -39,11 +39,11 @@
         <div class="element">
 
           <label> Rank </label>
-          <button type="button" id="userRankValue">404</button>
+          <button type="button" id="userRankValue">14</button>
         </div>
         <div class="element">
           <label> Team Rank </label>
-          <button type="button" id="teamRankValue">404</button>
+          <button type="button" id="teamRankValue">7</button>
         </div>
       </div>
 
@@ -51,11 +51,11 @@
 
         <div class="element">
           <label style="margin-top: 25px; margin-right:20px;"> KUDO Recived </label>
-          <button type="button" id="kudosRecived">6</button>
+          <button type="button" id="kudosRecived" onclick="openKudoRecSent()">6</button>
         </div>
         <div class="element">
           <label style="margin-top: 25px; margin-right:20px;"> KUDO Sent </label>
-          <button type="button" id="kudosSent">6</button>
+          <button type="button" id="kudosSent" onclick="openKudoRecSent()">6</button>
         </div>
 
 
@@ -114,15 +114,22 @@
           <h3>Daily Quote</h3>
           <p id="dailyQuote"></p>
         </div>
+        <div id="yourScore">
+
+        </div>
 
 
 
 
       <div class="statGraph">
           <div class="">
-            <h2>Stats</h2>
+            <h2>Your Statistics: </h2>
           </div>
           <hr style="width:80%; height: 1px;">
+
+        <div class="graphImage">
+          <img src="./images/graph.png" alt="404" style=" margin: 40px;width: 1300px;" ">
+        </div>
 
       </div>
 

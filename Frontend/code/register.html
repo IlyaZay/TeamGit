@@ -9,10 +9,15 @@
 </head>
 <body>
 
+
+  <nav>
+    <h1>Celtra Hackathon</h1>
+  </nav>
+
 <div class="loginForm">
 
 
-  <h1>Register</h1>
+  <h1>Register: </h1>
 
   <div class="element">
     <label>Username: </label>
@@ -26,27 +31,44 @@
 
   <div class="element">
     <label>Password: </label>
-    <input type="text" name="password" value="">
+    <input type="password" name="password" value="">
   </div>
-
+  <div class="element">
+    <label>Position: </label>
+    <input type="text" name="position" value="">
+  </div>
   <div class="element">
     <label>Team: </label>
-    <input type="text" name="team" value="">
+    <select class="team" name="Team" >
+      <option value="Managment">Managment</option>
+      <option value="IT Department">ID department</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Services">Services</option>
+    </select>
+  </div>
+  <div class="element">
+    <label>Gender: </label>
+    <select class="gender" name="Gender" >
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Neutral">Netral</option>
+    </select>
   </div>
 
   <div class="element">
     <label>Age: </label>
-    <input type="text" name="age" value="">
+    <input type="number" name="age" value="">
   </div>
 
-  <div class="element">
-    <label>Picture URL: </label>
-    <input type="text" name="pictureURL" value="">
+
+  <div class="element2">
+   <button onclick="loginButton()" type="button" id="loginButton">Log In</button>
   </div>
 
   <div class="element2">
-     <button onclick="registerButton()" type="button" name="registerButton">Register</button>
+     <button onclick="registerButton()" type="button" id="registerButton">Register</button>
   </div>
+
 
 
 </div>
